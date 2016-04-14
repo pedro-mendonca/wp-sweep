@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WP-Sweep\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp-sweep\n"
 "POT-Creation-Date: 2016-04-14 09:44+0100\n"
-"PO-Revision-Date: 2016-04-14 09:45+0100\n"
+"PO-Revision-Date: 2016-04-14 21:29+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -109,7 +109,7 @@ msgstr "Rascunhos automáticos"
 
 #: admin.php:128
 msgid "Deleted Posts"
-msgstr "Artigos apagados"
+msgstr "Artigos eliminados"
 
 #: admin.php:148
 msgid "Orphaned Post Meta"
@@ -150,7 +150,7 @@ msgstr "Comentários marcados como spam"
 
 #: admin.php:265
 msgid "Deleted Comments"
-msgstr "Comentários apagados"
+msgstr "Comentários eliminados"
 
 #: admin.php:285
 msgid "Orphaned Comment Meta"
@@ -304,7 +304,7 @@ msgstr "Foram processados %s rascunhos automáticos"
 #: wp-sweep.php:532
 #, php-format
 msgid "%s Deleted Posts Processed"
-msgstr "Foram processados %s artigos apagados"
+msgstr "Foram processados %s artigos eliminados"
 
 #: wp-sweep.php:542
 #, php-format
@@ -369,12 +369,12 @@ msgstr "Foram processados %s metadados duplicados de comentários"
 #: wp-sweep.php:705
 #, php-format
 msgid "%s Duplicated User Meta Processed"
-msgstr "Foram processados %s metadados de utilizadores"
+msgstr "Foram processados %s metadados duplicados de utilizadores"
 
 #: wp-sweep.php:717
 #, php-format
 msgid "%s Duplicated Term Meta Processed"
-msgstr "Foram processados %s metadados de termos"
+msgstr "Foram processados %s metadados duplicados de termos"
 
 #: wp-sweep.php:725
 #, php-format
