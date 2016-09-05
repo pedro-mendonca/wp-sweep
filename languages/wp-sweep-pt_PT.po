@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP-Sweep\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/wp-sweep\n"
-"POT-Creation-Date: 2016-04-14 09:44+0100\n"
-"PO-Revision-Date: 2016-08-11 19:44+0100\n"
+"POT-Creation-Date: 2016-09-05 22:44+0100\n"
+"PO-Revision-Date: 2016-09-05 22:47+0100\n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language: pt_PT\n"
@@ -23,21 +23,21 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #. Plugin Name of the plugin/theme
-#: admin.php:66
+#: admin.php:70
 msgid "WP-Sweep"
 msgstr "WP-Sweep"
 
-#: admin.php:68
+#: admin.php:73
 #, php-format
 msgid ""
-"Before you do any sweep, please <a href=\"%s\" target=\"%s\">backup your "
+"Before you do any sweep, please <a href=\"%1$s\" target=\"%1$s\">backup your "
 "database</a> first because any sweep done is irreversible."
 msgstr ""
-"Antes de executar qualquer limpeza, por favor faça primeiro uma <a href=\"%s"
-"\" target=\"%s\">cópia de segurança da sua base de dados</a> porque todas as "
-"limpezas são irreversíveis."
+"Antes de executar qualquer limpeza, por favor faça primeiro uma <a href="
+"\"%1$s\" target=\"%2$s\">cópia de segurança da sua base de dados</a> porque "
+"todas as limpezas são irreversíveis."
 
-#: admin.php:71
+#: admin.php:77
 #, php-format
 msgid ""
 "For performance reasons, only %s items will be shown if you click Details"
@@ -45,185 +45,186 @@ msgstr ""
 "Por uma questão de performance, se clicar em Detalhes apenas serão mostrados "
 "%s itens"
 
-#: admin.php:73
+#: admin.php:79
 msgid "Post Sweep"
 msgstr "Limpar conteúdos"
 
-#: admin.php:74
+#: admin.php:80
 #, php-format
 msgid ""
 "There are a total of <strong class=\"attention\"><span class=\"sweep-count-"
-"type-posts\">%s</span> Posts</strong> and <strong class=\"attention\"><span "
-"class=\"sweep-count-type-postmeta\">%s</span> Post Meta</strong>."
+"type-posts\">%1$s</span> Posts</strong> and <strong class=\"attention"
+"\"><span class=\"sweep-count-type-postmeta\">%1$s</span> Post Meta</strong>."
 msgstr ""
 "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
-"type-posts\">%s</span> conteúdos</strong> e <strong class=\"attention"
-"\"><span class=\"sweep-count-type-postmeta\">%s</span> metadados de "
+"type-posts\">%1$s</span> conteúdos</strong> e <strong class=\"attention"
+"\"><span class=\"sweep-count-type-postmeta\">%2$s</span> metadados de "
 "conteúdos</strong>."
 
-#: admin.php:79 admin.php:100 admin.php:120 admin.php:140 admin.php:160
-#: admin.php:180 admin.php:200 admin.php:216 admin.php:237 admin.php:257
-#: admin.php:277 admin.php:297 admin.php:317 admin.php:333 admin.php:354
-#: admin.php:374 admin.php:390 admin.php:411 admin.php:431 admin.php:451
-#: admin.php:472 admin.php:488 admin.php:509 admin.php:525 admin.php:546
+#: admin.php:85 admin.php:106 admin.php:126 admin.php:146 admin.php:166
+#: admin.php:186 admin.php:206 admin.php:222 admin.php:243 admin.php:263
+#: admin.php:283 admin.php:303 admin.php:323 admin.php:339 admin.php:360
+#: admin.php:380 admin.php:396 admin.php:417 admin.php:437 admin.php:457
+#: admin.php:478 admin.php:494 admin.php:515 admin.php:531 admin.php:552
 msgid "Details"
 msgstr "Detalhes"
 
-#: admin.php:80 admin.php:217 admin.php:334 admin.php:391 admin.php:489
-#: admin.php:526
+#: admin.php:86 admin.php:223 admin.php:340 admin.php:397 admin.php:495
+#: admin.php:532
 msgid "Count"
 msgstr "Contagem"
 
-#: admin.php:81 admin.php:218 admin.php:335 admin.php:392 admin.php:490
-#: admin.php:527
+#: admin.php:87 admin.php:224 admin.php:341 admin.php:398 admin.php:496
+#: admin.php:533
 msgid "% Of"
 msgstr "% de"
 
-#: admin.php:82 admin.php:219 admin.php:336 admin.php:393 admin.php:491
-#: admin.php:528
+#: admin.php:88 admin.php:225 admin.php:342 admin.php:399 admin.php:497
+#: admin.php:534
 msgid "Action"
 msgstr "Acção"
 
-#: admin.php:88
+#: admin.php:94
 msgid "Revisions"
 msgstr "Revisões"
 
-#: admin.php:99 admin.php:119 admin.php:139 admin.php:159 admin.php:179
-#: admin.php:199 admin.php:236 admin.php:256 admin.php:276 admin.php:296
-#: admin.php:316 admin.php:353 admin.php:373 admin.php:410 admin.php:430
-#: admin.php:450 admin.php:471 admin.php:508 admin.php:545 wp-sweep.php:145
-#: wp-sweep.php:161
+#: admin.php:105 admin.php:125 admin.php:145 admin.php:165 admin.php:185
+#: admin.php:205 admin.php:242 admin.php:262 admin.php:282 admin.php:302
+#: admin.php:322 admin.php:359 admin.php:379 admin.php:416 admin.php:436
+#: admin.php:456 admin.php:477 admin.php:514 admin.php:551 wp-sweep.php:150
+#: wp-sweep.php:166
 msgid "Sweep"
 msgstr "Limpar"
 
-#: admin.php:102 admin.php:122 admin.php:142 admin.php:162 admin.php:182
-#: admin.php:202 admin.php:239 admin.php:259 admin.php:279 admin.php:299
-#: admin.php:319 admin.php:356 admin.php:376 admin.php:413 admin.php:433
-#: admin.php:453 admin.php:474 admin.php:511 admin.php:541 admin.php:548
-#: wp-sweep.php:148
+#: admin.php:108 admin.php:128 admin.php:148 admin.php:168 admin.php:188
+#: admin.php:208 admin.php:245 admin.php:265 admin.php:285 admin.php:305
+#: admin.php:325 admin.php:362 admin.php:382 admin.php:419 admin.php:439
+#: admin.php:459 admin.php:480 admin.php:517 admin.php:547 admin.php:554
+#: wp-sweep.php:153
 msgid "N/A"
 msgstr "N/D"
 
-#: admin.php:108
+#: admin.php:114
 msgid "Auto Drafts"
 msgstr "Rascunhos automáticos"
 
-#: admin.php:128
+#: admin.php:134
 msgid "Deleted Posts"
 msgstr "Conteúdos eliminados"
 
-#: admin.php:148
+#: admin.php:154
 msgid "Orphaned Post Meta"
 msgstr "Metadados órfãos de conteúdos"
 
-#: admin.php:168
+#: admin.php:174
 msgid "Duplicated Post Meta"
 msgstr "Metadados duplicados de conteúdos"
 
-#: admin.php:188
+#: admin.php:194
 msgid "oEmbed Caches In Post Meta"
 msgstr "Caches oEmbed em metadados de conteúdos"
 
-#: admin.php:210
+#: admin.php:216
 msgid "Comment Sweep"
 msgstr "Limpar comentários"
 
-#: admin.php:211
+#: admin.php:217
 #, php-format
 msgid ""
 "There are a total of <strong class=\"attention\"><span class=\"sweep-count-"
-"type-comments\">%s</span> Comments</strong> and <strong class=\"attention"
-"\"><span class=\"sweep-count-type-commentmeta\">%s</span> Comment Meta</"
+"type-comments\">%1$s</span> Comments</strong> and <strong class=\"attention"
+"\"><span class=\"sweep-count-type-commentmeta\">%1$s</span> Comment Meta</"
 "strong>."
 msgstr ""
 "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
-"type-comments\">%s</span> comentários</strong> e <strong class=\"attention"
-"\"><span class=\"sweep-count-type-commentmeta\">%s</span> metadados de "
+"type-comments\">%1$s</span> comentários</strong> e <strong class=\"attention"
+"\"><span class=\"sweep-count-type-commentmeta\">%2$s</span> metadados de "
 "comentários</strong>."
 
-#: admin.php:225
+#: admin.php:231
 msgid "Unapproved Comments"
 msgstr "Comentários reprovados"
 
-#: admin.php:245
+#: admin.php:251
 msgid "Spammed Comments"
 msgstr "Comentários marcados como spam"
 
-#: admin.php:265
+#: admin.php:271
 msgid "Deleted Comments"
 msgstr "Comentários eliminados"
 
-#: admin.php:285
+#: admin.php:291
 msgid "Orphaned Comment Meta"
 msgstr "Metadados órfãos de comentários"
 
-#: admin.php:305
+#: admin.php:311
 msgid "Duplicated Comment Meta"
 msgstr "Metadados duplicados de comentários"
 
-#: admin.php:327
+#: admin.php:333
 msgid "User Sweep"
 msgstr "Limpar utilizadores"
 
-#: admin.php:328
+#: admin.php:334
 #, php-format
 msgid ""
 "There are a total of <strong class=\"attention\"><span class=\"sweep-count-"
-"type-users\">%s</span> Users</strong> and <strong class=\"attention\"><span "
-"class=\"sweep-count-type-usermeta\">%s</span> User Meta</strong>."
+"type-users\">%1$s</span> Users</strong> and <strong class=\"attention"
+"\"><span class=\"sweep-count-type-usermeta\">%1$s</span> User Meta</strong>."
 msgstr ""
 "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
-"type-users\">%s</span> utilizadores</strong> e <strong class=\"attention"
-"\"><span class=\"sweep-count-type-usermeta\">%s</span> metadados de "
+"type-users\">%1$s</span> utilizadores</strong> e <strong class=\"attention"
+"\"><span class=\"sweep-count-type-usermeta\">%2$s</span> metadados de "
 "utilizadores</strong>."
 
-#: admin.php:342
+#: admin.php:348
 msgid "Orphaned User Meta"
 msgstr "Metadados órfãos de utilizadores"
 
-#: admin.php:362
+#: admin.php:368
 msgid "Duplicated User Meta"
 msgstr "Metadados duplicados de utilizadores"
 
-#: admin.php:384
+#: admin.php:390
 msgid "Term Sweep"
 msgstr "Limpar termos"
 
-#: admin.php:385
+#: admin.php:391
 #, php-format
 msgid ""
 "There are a total of <strong class=\"attention \"><span class=\"sweep-count-"
-"type-terms\">%s</span> Terms</strong>, <strong class=\"attention \"><span "
-"class=\"sweep-count-type-termmeta\">%s</span> Term Meta</strong>, <strong "
-"class=\"attention\"><span class=\"sweep-count-type-term_taxonomy\">%s</span> "
-"Term Taxonomy</strong> and <strong class=\"attention\"><span class=\"sweep-"
-"count-type-term_relationships\">%s</span> Term Relationships</strong>."
+"type-terms\">%1$s</span> Terms</strong>, <strong class=\"attention \"><span "
+"class=\"sweep-count-type-termmeta\">%1$s</span> Term Meta</strong>, <strong "
+"class=\"attention\"><span class=\"sweep-count-type-term_taxonomy\">%1$s</"
+"span> Term Taxonomy</strong> and <strong class=\"attention\"><span class="
+"\"sweep-count-type-term_relationships\">%1$s</span> Term Relationships</"
+"strong>."
 msgstr ""
 "Existe um total de <strong class=\"attention \"><span class=\"sweep-count-"
-"type-terms\">%s</span> termos</strong>, <strong class=\"attention \"><span "
-"class=\"sweep-count-type-termmeta\">%s</span> metadados de termos</strong>, "
-"<strong class=\"attention\"><span class=\"sweep-count-type-term_taxonomy\">"
-"%s</span> termos de taxonomias</strong> e <strong class=\"attention\"><span "
-"class=\"sweep-count-type-term_relationships\">%s</span> relações de termos</"
-"strong>."
+"type-terms\">%1$s</span> termos</strong>, <strong class=\"attention \"><span "
+"class=\"sweep-count-type-termmeta\">%2$s</span> metadados de termos</"
+"strong>, <strong class=\"attention\"><span class=\"sweep-count-type-"
+"term_taxonomy\">%s</span> termos de taxonomias</strong> e <strong class="
+"\"attention\"><span class=\"sweep-count-type-term_relationships\">%s</span> "
+"relações de termos</strong>."
 
-#: admin.php:399
+#: admin.php:405
 msgid "Orphaned Term Meta"
 msgstr "Metadados órfãos de termos"
 
-#: admin.php:419
+#: admin.php:425
 msgid "Duplicated Term Meta"
 msgstr "Metadados duplicados de termos"
 
-#: admin.php:439
+#: admin.php:445
 msgid "Orphaned Term Relationship"
 msgstr "Relações orfãs de termos"
 
-#: admin.php:459
+#: admin.php:465
 msgid "Unused Terms"
 msgstr "Termos não utilizados"
 
-#: admin.php:460
+#: admin.php:466
 msgid ""
 "Note that some unused terms might belong to draft posts that have not been "
 "published yet. Only sweep this when you do not have any draft posts."
@@ -232,11 +233,11 @@ msgstr ""
 "ainda não foram publicados. Limpe isto apenas quando não tiver nenhum "
 "rascunho de conteúdo."
 
-#: admin.php:482
+#: admin.php:488
 msgid "Option Sweep"
 msgstr "Limpar opções"
 
-#: admin.php:483
+#: admin.php:489
 #, php-format
 msgid ""
 "There are a total of <strong class=\"attention\"><span class=\"sweep-count-"
@@ -245,15 +246,15 @@ msgstr ""
 "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
 "type-options\">%s</span> opções</strong>."
 
-#: admin.php:497
+#: admin.php:503
 msgid "Transient Options"
 msgstr "Dados transitórios"
 
-#: admin.php:519
+#: admin.php:525
 msgid "Database Sweep"
 msgstr "Limpar base de dados"
 
-#: admin.php:520
+#: admin.php:526
 #, php-format
 msgid ""
 "There are a total of <strong class=\"attention\"><span class=\"sweep-count-"
@@ -262,15 +263,15 @@ msgstr ""
 "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
 "type-tables\">%s</span> tabelas</strong>."
 
-#: admin.php:534
+#: admin.php:540
 msgid "Optimize Tables"
 msgstr "Optimizar tabelas"
 
-#: admin.php:556 admin.php:560 wp-sweep.php:146
+#: admin.php:562 admin.php:566 wp-sweep.php:151
 msgid "Sweep All"
 msgstr "Limpar tudo"
 
-#: admin.php:557
+#: admin.php:563
 msgid ""
 "Note that some unused terms might belong to draft posts that have not been "
 "published yet. Only sweep all when you do not have any draft posts."
@@ -279,110 +280,110 @@ msgstr ""
 "ainda não foram publicados. Limpe tudo apenas quando não tiver nenhum "
 "rascunho de conteúdo."
 
-#: wp-sweep.php:144
+#: wp-sweep.php:149
 msgid ""
 "Sweeping is in progress. If you leave now, the process won't be completed."
 msgstr "Limpeza em curso. Se sair agora, o processo não será concluído."
 
-#: wp-sweep.php:147
+#: wp-sweep.php:152
 msgid "Sweeping ..."
 msgstr "A limpar..."
 
-#: wp-sweep.php:178 wp-sweep.php:199
+#: wp-sweep.php:187 wp-sweep.php:212
 msgid "Failed to verify referrer."
 msgstr "Falhou ao verificar referência."
 
-#: wp-sweep.php:512
+#: wp-sweep.php:525
 #, php-format
 msgid "%s Revisions Processed"
 msgstr "Foram processadas %s revisões"
 
-#: wp-sweep.php:522
+#: wp-sweep.php:535
 #, php-format
 msgid "%s Auto Drafts Processed"
 msgstr "Foram processados %s rascunhos automáticos"
 
-#: wp-sweep.php:532
+#: wp-sweep.php:545
 #, php-format
 msgid "%s Deleted Posts Processed"
 msgstr "Foram processados %s conteúdos eliminados"
 
-#: wp-sweep.php:542
+#: wp-sweep.php:555
 #, php-format
 msgid "%s Unapproved Comments Processed"
 msgstr "Foram processados %s comentários reprovados"
 
-#: wp-sweep.php:552
+#: wp-sweep.php:565
 #, php-format
 msgid "%s Spam Comments Processed"
 msgstr "Foram processados %s comentários de spam"
 
-#: wp-sweep.php:562
+#: wp-sweep.php:575
 #, php-format
 msgid "%s Trash Comments Processed"
 msgstr "Foram processados %s comentários no lixo"
 
-#: wp-sweep.php:576
+#: wp-sweep.php:589
 #, php-format
 msgid "%s Transient Options Processed"
 msgstr "Foram processados %s dados transitórios"
 
-#: wp-sweep.php:591
+#: wp-sweep.php:604
 #, php-format
 msgid "%s Orphaned Post Meta Processed"
 msgstr "Foram processados %s metadados órfãos de conteúdos"
 
-#: wp-sweep.php:606
+#: wp-sweep.php:619
 #, php-format
 msgid "%s Orphaned Comment Meta Processed"
 msgstr "Foram processados %s metadados órfãos de comentários"
 
-#: wp-sweep.php:621
+#: wp-sweep.php:634
 #, php-format
 msgid "%s Orphaned User Meta Processed"
 msgstr "Foram processados %s metadados órfãos de utilizadores"
 
-#: wp-sweep.php:636
+#: wp-sweep.php:649
 #, php-format
 msgid "%s Orphaned Term Meta Processed"
 msgstr "Foram processados %s metadados órfãos de termos"
 
-#: wp-sweep.php:649
+#: wp-sweep.php:662
 #, php-format
 msgid "%s Orphaned Term Relationships Processed"
 msgstr "Foram processados %s relações orfãs de termos"
 
-#: wp-sweep.php:669
+#: wp-sweep.php:682
 #, php-format
 msgid "%s Unused Terms Processed"
 msgstr "Foram processados %s termos não utilizados"
 
-#: wp-sweep.php:681
+#: wp-sweep.php:694
 #, php-format
 msgid "%s Duplicated Post Meta Processed"
 msgstr "Foram processados %s metadados duplicados de conteúdos"
 
-#: wp-sweep.php:693
+#: wp-sweep.php:706
 #, php-format
 msgid "%s Duplicated Comment Meta Processed"
 msgstr "Foram processados %s metadados duplicados de comentários"
 
-#: wp-sweep.php:705
+#: wp-sweep.php:718
 #, php-format
 msgid "%s Duplicated User Meta Processed"
 msgstr "Foram processados %s metadados duplicados de utilizadores"
 
-#: wp-sweep.php:717
+#: wp-sweep.php:730
 #, php-format
 msgid "%s Duplicated Term Meta Processed"
 msgstr "Foram processados %s metadados duplicados de termos"
 
-#: wp-sweep.php:725
+#: wp-sweep.php:738
 #, php-format
 msgid "%s Tables Processed"
 msgstr "Foram processadas %s tabelas"
 
-#: wp-sweep.php:740
+#: wp-sweep.php:753
 #, php-format
 msgid "%s oEmbed Caches In Post Meta Processed"
 msgstr "Foram processadas %s caches oEmbed em metadados de conteúdos"
@@ -416,3 +417,59 @@ msgstr "Lester 'GaMerZ' Chan"
 #. Author URI of the plugin/theme
 msgid "http://lesterchan.net"
 msgstr "http://lesterchan.net"
+
+#~ msgid ""
+#~ "Before you do any sweep, please <a href=\"%s\" target=\"%s\">backup your "
+#~ "database</a> first because any sweep done is irreversible."
+#~ msgstr ""
+#~ "Antes de executar qualquer limpeza, por favor faça primeiro uma <a href="
+#~ "\"%s\" target=\"%s\">cópia de segurança da sua base de dados</a> porque "
+#~ "todas as limpezas são irreversíveis."
+
+#~ msgid ""
+#~ "There are a total of <strong class=\"attention\"><span class=\"sweep-"
+#~ "count-type-posts\">%s</span> Posts</strong> and <strong class=\"attention"
+#~ "\"><span class=\"sweep-count-type-postmeta\">%s</span> Post Meta</strong>."
+#~ msgstr ""
+#~ "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
+#~ "type-posts\">%s</span> conteúdos</strong> e <strong class=\"attention"
+#~ "\"><span class=\"sweep-count-type-postmeta\">%s</span> metadados de "
+#~ "conteúdos</strong>."
+
+#~ msgid ""
+#~ "There are a total of <strong class=\"attention\"><span class=\"sweep-"
+#~ "count-type-comments\">%s</span> Comments</strong> and <strong class="
+#~ "\"attention\"><span class=\"sweep-count-type-commentmeta\">%s</span> "
+#~ "Comment Meta</strong>."
+#~ msgstr ""
+#~ "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
+#~ "type-comments\">%s</span> comentários</strong> e <strong class=\"attention"
+#~ "\"><span class=\"sweep-count-type-commentmeta\">%s</span> metadados de "
+#~ "comentários</strong>."
+
+#~ msgid ""
+#~ "There are a total of <strong class=\"attention\"><span class=\"sweep-"
+#~ "count-type-users\">%s</span> Users</strong> and <strong class=\"attention"
+#~ "\"><span class=\"sweep-count-type-usermeta\">%s</span> User Meta</strong>."
+#~ msgstr ""
+#~ "Existe um total de <strong class=\"attention\"><span class=\"sweep-count-"
+#~ "type-users\">%s</span> utilizadores</strong> e <strong class=\"attention"
+#~ "\"><span class=\"sweep-count-type-usermeta\">%s</span> metadados de "
+#~ "utilizadores</strong>."
+
+#~ msgid ""
+#~ "There are a total of <strong class=\"attention \"><span class=\"sweep-"
+#~ "count-type-terms\">%s</span> Terms</strong>, <strong class=\"attention "
+#~ "\"><span class=\"sweep-count-type-termmeta\">%s</span> Term Meta</"
+#~ "strong>, <strong class=\"attention\"><span class=\"sweep-count-type-"
+#~ "term_taxonomy\">%s</span> Term Taxonomy</strong> and <strong class="
+#~ "\"attention\"><span class=\"sweep-count-type-term_relationships\">%s</"
+#~ "span> Term Relationships</strong>."
+#~ msgstr ""
+#~ "Existe um total de <strong class=\"attention \"><span class=\"sweep-count-"
+#~ "type-terms\">%s</span> termos</strong>, <strong class=\"attention "
+#~ "\"><span class=\"sweep-count-type-termmeta\">%s</span> metadados de "
+#~ "termos</strong>, <strong class=\"attention\"><span class=\"sweep-count-"
+#~ "type-term_taxonomy\">%s</span> termos de taxonomias</strong> e <strong "
+#~ "class=\"attention\"><span class=\"sweep-count-type-term_relationships\">"
+#~ "%s</span> relações de termos</strong>."
